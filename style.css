@@ -1,0 +1,55 @@
+body {
+    background-color: #135D98;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80svh;
+    padding: 20px;
+    background-image: url("https://p325k7wa.twic.pics/high/paw-patrol/paw-patrol-on-the-roll/00-page-setup/paw-patrol-otr_game-thumbnail.jpg?twic=v1/resize=760/step=10/quality=80");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card {
+    width: 80px;
+    height: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 2px;
+    transition: all 0.5s;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/PAW_Patrol_Logo.png/220px-PAW_Patrol_Logo.png");
+    background-color: #c83030;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.button {
+    padding: 15px 50px;
+    margin-top: 50px;
+    background-color: #c83030;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
